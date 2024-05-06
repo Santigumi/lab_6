@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input{
+    width: 105px;
+    height: 45px;
+    font-size: medium;
+    border-radius: 10px;
+    border-color: lightpink;
+    margin: 5px;
+}
+
+label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+
+button {
+    font-size: medium;
+    width: 95px;
+    height: 45px;
+    background-color: lightcoral;
+    color: white;
+    border-radius: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+section {
+display: grid;
+grid-template-columns: 325px 325px 325px;
+width: 100wh;
+height: 100vh;
+background-color: lightblue;
+}
+
+app-song {
+    display: grid;
+    background-color: lightcoral;
+    width: 295px;
+    height: 450px;
+    border-radius: 10px;
+    color: white
+}
+
